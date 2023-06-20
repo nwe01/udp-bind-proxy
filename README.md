@@ -126,8 +126,10 @@ Probably. Good luck.
 
 
 (HOME)
-
+```
+tmux new -s sessions-name
 pf$~: find . -iname 'udp-*'
 ./src/git/udp-bind-proxy
 ./src/git/udp-bind-proxy/obj/udp-bind-proxy
 pf$~: doas ./src/git/udp-bind-proxy/obj/udp-bind-proxy -u _ppp
+```
